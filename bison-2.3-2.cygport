@@ -1,0 +1,6 @@
+DESCRIPTION="GNU yacc-compatible parser generator"
+HOMEPAGE="http://www.gnu.org/software/bison/"
+SRC_URI="mirror://gnu/${PN}/${P}.tar.bz2
+         mirror://gnu/${PN}/${P}.tar.bz2.sig"
+
+DIFF_EXCLUDES="config.hin config.rpath intl m4"
