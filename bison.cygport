@@ -1,5 +1,5 @@
 NAME="bison"
-VERSION=2.7
+VERSION=2.7.1
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GNU yacc-compatible parser generator"
@@ -10,5 +10,7 @@ also generate IELR(1) or canonical LR(1) parser tables. Once you are proficient
 with Bison, you can use it to develop a wide range of language parsers, from
 those used in simple desk calculators to complex programming languages."
 HOMEPAGE="http://www.gnu.org/software/bison/"
-SRC_URI="mirror://gnu/${PN}/${P}.tar.xz
-         mirror://gnu/${PN}/${P}.tar.xz.sig"
+SRC_URI="mirror://gnu/bison/bison-${VERSION}.tar.xz
+         mirror://gnu/bison/bison-${VERSION}.tar.xz.sig"
+
+DIFF_EXCLUDES="bison.1 bison.info stamp-vti version.texi .version"
